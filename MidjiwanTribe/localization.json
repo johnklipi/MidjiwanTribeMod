@@ -1,0 +1,41 @@
+{
+	"tribes_midjiwan": {
+		"English": "Midjiwan"
+	},
+	"tribes_warfare_info": {
+		"English": "{0} - creators of Polytopia! They came back to get everything back in order.",
+		"Russian": "{0}"
+	},
+	"tribes_warfare_info2": {
+		"English": "{0}",
+		"Russian": "{0}"
+	},
+	"technology_names_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"resource_names_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"building_names_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"unit_abilities_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"tooltip_ability_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"unit_names_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	},
+	"actionbox_unit_test": {
+		"English": "TEST",
+		"Russian": "TEST"
+	}
+}

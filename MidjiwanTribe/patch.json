@@ -1,0 +1,202 @@
+{
+	"tribeData": {
+		"midjiwan": {
+			"color": 16777215,
+			"language": "midji,wan,too,tree,fawr,fy,sei,mod,ate,x,poly",
+			"startingTech": [
+				"basic",
+				"meditation2"
+			],
+			"resourceModifier": {
+			},
+			"terrainModifier": {
+			},
+			"priceTier": 3,
+			"category": 2,
+			"bonus": 0,
+			"startingUnit": "midjiwan",
+			"techOverrides": {
+				"meditation": "meditation2"
+			},
+			"unitOverrides": {
+				"warrior": "none",
+				"mindbender": "none",
+				"rider": "midjitoo",
+				"knight": "zoythrus",
+				"defender": "midjify",
+				"cloak": "midjimod",
+				"archer": "midjifawr",
+				"catapult": "midjiate"
+			},
+			"improvementOverrides": {
+			},
+			"startingResource": [
+				"fruit",
+				"fruit"
+			],
+			"tribeAbilities": [
+			],
+			"idx": -1
+		}
+	},
+	"tribeAbility": {
+	},
+	"unitEffect": {
+	},
+	"improvementData": {
+	},
+	"techData": {
+		"meditation2": {
+			"techUnlocks": [
+				"philosophy"
+			],
+			"unitUnlocks": [
+				"midjiwan"
+			],
+			"taskUnlocks": [
+				"pacifist"
+			],
+			"cost": 2,
+			"idx": -1
+		}
+	},
+	"unitAbility": {
+	},
+	"unitData": {
+		"midjiwan": {
+			"health": 100,
+			"defence": 10,
+			"movement": 1,
+			"range": 1,
+			"attack": 0,
+			"cost": 5,
+			"unitAbilities": [
+				"unique",
+				"heal",
+				"convert",
+				"stiff",
+				"land"
+			],
+			"weapon": 4,
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"midjitoo": {
+			"health": 100,
+			"defence": 10,
+			"movement": 3,
+			"range": 1,
+			"attack": 25,
+			"cost": 3,
+			"unitAbilities": [
+				"unique",
+				"dash",
+				"escape",
+				"fortify",
+				"surprise",
+				"land"
+			],
+			"weapon": 1,
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"midjifawr": {
+			"health": 100,
+			"defence": 10,
+			"movement": 1,
+			"range": 2,
+			"attack": 20,
+			"cost": 3,
+			"unitAbilities": [
+				"unique",
+				"dash",
+				"fortify",
+				"land"
+			],
+			"weapon": 3,
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"midjify": {
+			"health": 150,
+			"defence": 30,
+			"movement": 1,
+			"range": 1,
+			"attack": 10,
+			"cost": 3,
+			"weapon": 2,
+			"promotionLimit": 3,
+			"unitAbilities": [
+				"unique",
+				"fortify",
+				"land"
+			],
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"midjimod": {
+			"health": 50,
+			"defence": 5,
+			"movement": 2,
+			"range": 1,
+			"attack": 20,
+			"cost": 8,
+			"unitAbilities": [
+				"unique",
+				"hide",
+				"creep",
+				"infiltrate",
+				"dash",
+				"scout",
+				"stiff",
+				"static",
+				"land"
+			],
+			"weapon": 1,
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"midjiate": {
+			"health": 100,
+			"defence": 0,
+			"movement": 1,
+			"range": 3,
+			"attack": 40,
+			"cost": 8,
+			"weapon": 6,
+			"unitAbilities": [
+				"unique",
+				"stiff",
+				"land"
+			],
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		},
+		"zoythrus": {
+			"health": 100,
+			"defence": 0,
+			"movement": 1,
+			"range": 3,
+			"attack": 40,
+			"cost": 8,
+			"weapon": 6,
+			"unitAbilities": [
+				"unique",
+				"stiff",
+				"land"
+			],
+			"promotionLimit": 3,
+			"idx": -1,
+			"prefab": "warrior"
+		}
+	},
+	"resourceData": {
+	},
+	"skinData": {},
+	"improvementAbility": {}
+}
