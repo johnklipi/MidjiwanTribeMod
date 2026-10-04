@@ -1,6 +1,74 @@
 {
-	"body_test__": {
-		"pixelsPerUnit": 2112,
-		"pivot": [0.5, 0.5]
-	}
+	"head_midjiwan_": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjiate__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjifawr__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjify__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjitone__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjitoo__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjiwan__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjix__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_midjimod__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"house_midjiwan_1": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+	"house_midjiwan_2": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+	"house_midjiwan_3": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+	"house_midjiwan_4": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+	"house_midjiwan_5": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+	"house_midjiwan_7": {
+		"pixelsPerUnit": 1800,
+		"pivot": [0.5, 0.05]
+	},
+    "mountain_midjiwan_": {
+        "pixelsPerUnit": 1024,
+        "pivot": [0.5, -0.11]
+    },
+    "forest_midjiwan_": {
+        "pixelsPerUnit": 280,
+        "pivot": [0.5, 0.5]
+    }
 }
