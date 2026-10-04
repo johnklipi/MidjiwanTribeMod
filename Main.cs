@@ -17,8 +17,8 @@ public static class Main
         {"midjify", 10834247}, //1907997
         {"midjimod", 13682529},
         {"midjitone", 15827146}, 
-        {"midjitoo", 15198183}, 
-        {"midjiwan", 5354648}, 
+        {"midjitoo", 6050382}, //15198183
+        {"midjiwan", 6147244}, //5354648
         {"midjix", 7412856}, 
         {"zoythrus", 8742184}, // 16514891
     };
