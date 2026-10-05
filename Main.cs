@@ -21,6 +21,8 @@ public static class Main
         {"midjiwan", 6147244}, //5354648
         {"midjix", 7412856}, 
         {"zoythrus", 8742184}, // 16514891
+        {"boat", 4576502},
+        {"ship", 197379},
     };
 
     public static void Load(ManualLogSource logger)
@@ -73,10 +75,15 @@ public static class Main
     {
         if(GameManager.LocalPlayer == null)
             return true;
-        if(unitData.type == UnitData.Type.Bunny &&
-            GameManager.LocalPlayer.tribe == EnumCache<PolytopiaBackendBase.Common.TribeType>.GetType("midjiwan"))
+        if(GameManager.LocalPlayer.tribe != EnumCache<PolytopiaBackendBase.Common.TribeType>.GetType("midjiwan"))
+            return true;
+        if(unitData.type == UnitData.Type.Bunny)
         {
             gameState.GameLogicData.TryGetData(EnumCache<UnitData.Type>.GetType("midjix"), out unitData);
+        }
+        else if(unitData.type == UnitData.Type.Transportship)
+        {
+            gameState.GameLogicData.TryGetData(UnitData.Type.Boat, out unitData);
         }
         return true;
     }
