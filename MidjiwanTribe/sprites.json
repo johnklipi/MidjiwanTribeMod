@@ -105,5 +105,70 @@
 	"unit_boat_tint_midjiwan_": {
         "pixelsPerUnit": 172.8491,
 		"pivot": [0.5, 0.5]
-    }
+    },
+
+	"head_zoythrus_aimo__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_aquarion__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_bardur__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_cymanti__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_elyrion__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_hoodrick__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_imperius__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_kickoo__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_luxidoor__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_oumaji__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_polaris__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_quetzali__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_vengir__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_xinxi__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_yadakk__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	},
+	"head_zoythrus_zebasi__": {
+		"pixelsPerUnit": 4224,
+		"pivot": [0.475, 0.475]
+	}
 }
