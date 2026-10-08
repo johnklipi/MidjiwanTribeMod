@@ -141,8 +141,8 @@
 			"idx": 6
 		},
 		"midjiwan": {
-			"health": 100,
-			"defence": 10,
+			"health": 150,
+			"defence": 30,
 			"movement": 1,
 			"range": 1,
 			"attack": 0,
@@ -151,7 +151,8 @@
 				"unique",
 				"heal",
 				"convert",
-				"stiff",
+				"dash",
+				"doubleattack",
 				"land"
 			],
 			"weapon": 4,
@@ -164,7 +165,7 @@
 			"defence": 10,
 			"movement": 3,
 			"range": 1,
-			"attack": 25,
+			"attack": 35,
 			"cost": 3,
 			"unitAbilities": [
 				"unique",
@@ -184,11 +185,13 @@
 			"defence": 10,
 			"movement": 1,
 			"range": 2,
-			"attack": 20,
+			"attack": 3,
 			"cost": 3,
 			"unitAbilities": [
 				"unique",
 				"dash",
+				"fly",
+				"persist",
 				"fortify",
 				"land"
 			],
@@ -240,9 +243,9 @@
 		"midjiate": {
 			"health": 100,
 			"defence": 0,
-			"movement": 1,
+			"movement": 2,
 			"range": 3,
-			"attack": 40,
+			"attack": 60,
 			"cost": 8,
 			"weapon": 6,
 			"unitAbilities": [
@@ -276,16 +279,17 @@
 			"defence": 30,
 			"movement": 1,
 			"range": 1,
-			"attack": 30,
+			"attack": 40,
 			"cost": 5,
 			"unitAbilities": [
 				"dash",
-				"land"
+				"land",
+				"stomp"
 			],
 			"weapon": 2,
 			"promotionLimit": 3,
 			"idx": -1,
-			"prefab": "warrior"
+			"prefab": "swordsman"
 		},
 		"midjix": {
 			"health": 200,

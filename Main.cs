@@ -111,9 +111,9 @@ public static class Main
                 unitData = boatData;
             }
         }
-        else if(gameState.GameLogicData.TryGetData(EnumCache<UnitData.Type>.GetType("zoythrus"), out var data))
+        var zoyType = EnumCache<UnitData.Type>.GetType("zoythrus");
+        if(unitData.type == zoyType && gameState.GameLogicData.TryGetData(zoyType, out var data))
         {
-            int tribesCount = Enum.GetNames(typeof(PolytopiaBackendBase.Common.TribeType)).Length - 2;
             PolytopiaBackendBase.Common.TribeType subTribe = RandomFromPos(tribesCount, tile.coordinates.x, tile.coordinates.y, gameState.CurrentTurn);
             string tribeString = EnumCache<PolytopiaBackendBase.Common.TribeType>.GetName(subTribe).ToLower();
             if(!gameState.GameLogicData.TryGetData(EnumCache<UnitData.Type>.GetType($"zoythrus_{tribeString}"), out UnitData zoythrusData))
@@ -127,7 +127,7 @@ public static class Main
         return true;
     }
 
-    private static PolytopiaBackendBase.Common.TribeType RandomFromPos(int tribesCount, int x, int y, uint turn)
+    private static PolytopiaBackendBase.Common.TribeType RandomFromPos(int x, int y, uint turn)
     {
         unchecked
         {
@@ -135,9 +135,10 @@ public static class Main
             seed = seed * 31 + x;
             seed = seed * 31 + y;
             seed = seed * 31 + (int)turn;
-            return (PolytopiaBackendBase.Common.TribeType)(new System.Random(seed).Next(0, tribesCount + 1) + 2);
+            return (PolytopiaBackendBase.Common.TribeType)(new System.Random(seed).Next(0, 16) + 2);
         }
     }
+
 	[HarmonyPostfix]
 	[HarmonyPatch(typeof(ClientInteraction), nameof(ClientInteraction.OnRelease))]
 	private static void OnRelease(ClientInteraction __instance, Tile tile, int touchIndex = 0)
