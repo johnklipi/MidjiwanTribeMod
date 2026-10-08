@@ -185,7 +185,7 @@
 			"defence": 10,
 			"movement": 1,
 			"range": 2,
-			"attack": 3,
+			"attack": 30,
 			"cost": 3,
 			"unitAbilities": [
 				"unique",

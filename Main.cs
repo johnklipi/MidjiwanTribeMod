@@ -114,7 +114,7 @@ public static class Main
         var zoyType = EnumCache<UnitData.Type>.GetType("zoythrus");
         if(unitData.type == zoyType && gameState.GameLogicData.TryGetData(zoyType, out var data))
         {
-            PolytopiaBackendBase.Common.TribeType subTribe = RandomFromPos(tribesCount, tile.coordinates.x, tile.coordinates.y, gameState.CurrentTurn);
+            PolytopiaBackendBase.Common.TribeType subTribe = RandomFromPos(tile.coordinates.x, tile.coordinates.y, gameState.CurrentTurn);
             string tribeString = EnumCache<PolytopiaBackendBase.Common.TribeType>.GetName(subTribe).ToLower();
             if(!gameState.GameLogicData.TryGetData(EnumCache<UnitData.Type>.GetType($"zoythrus_{tribeString}"), out UnitData zoythrusData))
             {
